@@ -1,0 +1,18 @@
+identity:
+    orgId: za6xa7
+    typeId: test
+    deviceId: 4321
+auth:
+    token: mytesttoken4321
+options:
+    domain: internetofthings.ibmcloud.com
+    logLevel: debug
+    http:
+        verify: True
+    mqtt:
+        port: 8883
+        transport: tcp
+        cleanStart: true
+        sessionExpiry: 7200
+        keepAlive: 120
+        caFile: /home/ubuntu/ibmiot/messaging.pem
