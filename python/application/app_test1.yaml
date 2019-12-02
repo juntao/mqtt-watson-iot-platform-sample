@@ -1,0 +1,17 @@
+identity:
+    appId: test1
+auth:
+    key: a-za6xa7-lxmzussonj
+    token: ag3kFHw?xIw_9hMOSo
+options:
+    domain: internetofthings.ibmcloud.com
+    logLevel: debug
+    http:
+        verify: True
+    mqtt:
+        port: 8883
+        transport: tcp
+        cleanStart: true
+        sessionExpiry: 7200
+        keepAlive: 120
+        caFile: /home/ubuntu/ibmiot/messaging.pem
